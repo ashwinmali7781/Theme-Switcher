@@ -1,16 +1,107 @@
-# React + Vite
+# 🎨 Theme Switcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern Theme Switcher application built using **React**, **Vite**, and **Tailwind CSS**.  
+This project allows users to toggle between Light and Dark mode with smooth UI updates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🌞 Light Mode
+- 🌙 Dark Mode
+- ⚡ Fast performance with Vite
+- 🎨 Clean UI with Tailwind CSS
+- 💾 Persistent theme (if implemented using localStorage)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- HTML5 & CSS3
+
+---
+
+## 📦 Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/ashwinmali7781/Theme-Switcher.git
+```
+
+2. Navigate to project folder
+
+```bash
+cd Theme-Switcher
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start development server
+
+```bash
+npm run dev
+```
+
+5. Open in browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📁 Project Structure
+
+```
+Theme-Switcher/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│
+├── tailwind.config.js
+├── vite.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 💡 How It Works
+
+- A state variable manages the current theme.
+- Clicking the toggle button switches between light and dark classes.
+- Tailwind utility classes update UI dynamically.
+- Optional: Theme can be stored in `localStorage` for persistence.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create a new branch
+3. Make your changes
+4. Submit a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+⭐ If you like this project, give it a star on GitHub!
