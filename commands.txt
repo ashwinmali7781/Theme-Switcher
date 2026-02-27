@@ -1,0 +1,36 @@
+Case 1: First time pushing a new project
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/USERNAME/REPO_NAME.git
+git push -u origin main
+
+Case 2: Repository already exists (normal push)
+
+git status
+git add .
+git commit -m "Your commit message"
+git push origin main
+
+Case 3: If push is rejected (non-fast-forward error)
+
+Option A: Pull first (recommended)
+
+git pull origin main
+git push origin main
+
+Option B: Rebase (clean history)
+
+git pull origin main --rebase
+git push origin main
+
+Case 4: Force push (⚠️ use carefully)
+git push origin main --force 
+
+Useful Git Commands
+git status        # check file status
+git log --oneline # view commits
+git remote -v     # check remote URL
+git branch        # check current branc
